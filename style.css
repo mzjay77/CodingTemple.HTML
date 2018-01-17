@@ -6,7 +6,7 @@ body {
     font-weight: 300;
     font-size: 16px;
     line-height: 22px;
-    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-sarif";
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 header a:hover {
@@ -16,9 +16,14 @@ header a:hover {
 h1, h2, h3, h4 {
     color:#45a2da;
 }
-
+h2, h3, h4 {
+    font-size: 14px;
+    font-weight: 400
+    tex-transform: uppercase
+}
 header a {
     color: black;
+    text-decoration: none;
 }
 container {
     width: 960px;
