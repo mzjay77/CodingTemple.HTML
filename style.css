@@ -1,37 +1,72 @@
 * {
     box-sizing: border-box;
 }
+
 body {
+    background: white;
     color: black;
     font-weight: 300;
     font-size: 16px;
     line-height: 22px;
-    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 header a:hover {
+    box-shadow: insert 0 3px 0 0 #45a2da;
     color: #45a2da;
 }
 
 h1, h2, h3, h4 {
     color:#45a2da;
 }
+
 h2, h3, h4 {
     font-size: 14px;
-    font-weight: 400
-    tex-transform: uppercase
+    font-weight: 400;
+    text-transform: uppercase;
 }
-header a {
+
+header li {
+    display: inline-block;
+}
+.alt-link{
+    background-color:black;
+}
+
+.alt-link a {
+    color:white;
+}
+
+article p{
+    color: #848484;
+}
+
+header li a {
     color: black;
+}
+
+a {
     text-decoration: none;
 }
-container {
+
+.container {
     width: 960px;
     padding-right: 30px;
     padding-left: 30px;
     margin: 0 auto;
 }
 
+p {
+    color: #848484;
+}
+
+footer {
+    background-color: black;
+    border-top: 1 px solid rgba(0, 0, 0, 0.085);
+    box-shadow: insert 0 1px 0 0 rgba(255,255,255, 0.8);
+}
+
 footer a {
     color: white;
 }
+
