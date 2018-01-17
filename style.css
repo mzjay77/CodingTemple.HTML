@@ -1,10 +1,32 @@
-body {
+* {
     box-sizing: border-box;
 }
+body {
+    color: black;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-sarif";
+}
 
-.container {
+header a:hover {
+    color: #45a2da;
+}
+
+h1, h2, h3, h4 {
+    color:#45a2da;
+}
+
+header a {
+    color: black;
+}
+container {
     width: 960px;
     padding-right: 30px;
     padding-left: 30px;
     margin: 0 auto;
+}
+
+footer a {
+    color: white;
 }
