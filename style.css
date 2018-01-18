@@ -65,7 +65,9 @@ a {
     padding-left: 30px;
     margin: 0 auto;
 }
-
+aside {
+    color: #848484;
+}
 ul{ 
     list-style-type: none; 
 }
