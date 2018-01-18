@@ -60,6 +60,10 @@ p {
     color: #848484;
 }
 
+ul{ 
+    list-style-type: none; 
+}
+
 footer {
     background-color: black;
     border-top: 1 px solid rgba(0, 0, 0, 0.085);
